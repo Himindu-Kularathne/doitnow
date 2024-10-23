@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C737E6DD2CC8B31000B212C7 /* doitnow Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C737E6DC2CC8B31000B212C7 /* doitnow Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C737E6DE2CC8B31000B212C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C737E6D02CC8B31000B212C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C737E6DB2CC8B31000B212C7;
+			remoteInfo = "doitnow Watch App";
+		};
+		C737E6EF2CC8B31200B212C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C737E6D02CC8B31000B212C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C737E6DB2CC8B31000B212C7;
+			remoteInfo = "doitnow Watch App";
+		};
+		C737E6F92CC8B31300B212C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C737E6D02CC8B31000B212C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C737E6DB2CC8B31000B212C7;
+			remoteInfo = "doitnow Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C737E7052CC8B31300B212C7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C737E6DD2CC8B31000B212C7 /* doitnow Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C737E6D62CC8B31000B212C7 /* doitnow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doitnow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C737E6DC2CC8B31000B212C7 /* doitnow Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "doitnow Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C737E6EE2CC8B31200B212C7 /* doitnow Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "doitnow Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C737E6F82CC8B31300B212C7 /* doitnow Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "doitnow Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C737E6E02CC8B31000B212C7 /* doitnow Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "doitnow Watch App";
+			sourceTree = "<group>";
+		};
+		C737E6F12CC8B31200B212C7 /* doitnow Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "doitnow Watch AppTests";
+			sourceTree = "<group>";
+		};
+		C737E6FB2CC8B31300B212C7 /* doitnow Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "doitnow Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C737E6D92CC8B31000B212C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C737E6EB2CC8B31200B212C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C737E6F52CC8B31300B212C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C737E6CF2CC8B31000B212C7 = {
+			isa = PBXGroup;
+			children = (
+				C737E6E02CC8B31000B212C7 /* doitnow Watch App */,
+				C737E6F12CC8B31200B212C7 /* doitnow Watch AppTests */,
+				C737E6FB2CC8B31300B212C7 /* doitnow Watch AppUITests */,
+				C737E6D72CC8B31000B212C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C737E6D72CC8B31000B212C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C737E6D62CC8B31000B212C7 /* doitnow.app */,
+				C737E6DC2CC8B31000B212C7 /* doitnow Watch App.app */,
+				C737E6EE2CC8B31200B212C7 /* doitnow Watch AppTests.xctest */,
+				C737E6F82CC8B31300B212C7 /* doitnow Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C737E6D52CC8B31000B212C7 /* doitnow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C737E7062CC8B31300B212C7 /* Build configuration list for PBXNativeTarget "doitnow" */;
+			buildPhases = (
+				C737E6D42CC8B31000B212C7 /* Resources */,
+				C737E7052CC8B31300B212C7 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C737E6DF2CC8B31000B212C7 /* PBXTargetDependency */,
+			);
+			name = doitnow;
+			packageProductDependencies = (
+			);
+			productName = doitnow;
+			productReference = C737E6D62CC8B31000B212C7 /* doitnow.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		C737E6DB2CC8B31000B212C7 /* doitnow Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C737E7022CC8B31300B212C7 /* Build configuration list for PBXNativeTarget "doitnow Watch App" */;
+			buildPhases = (
+				C737E6D82CC8B31000B212C7 /* Sources */,
+				C737E6D92CC8B31000B212C7 /* Frameworks */,
+				C737E6DA2CC8B31000B212C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C737E6E02CC8B31000B212C7 /* doitnow Watch App */,
+			);
+			name = "doitnow Watch App";
+			packageProductDependencies = (
+			);
+			productName = "doitnow Watch App";
+			productReference = C737E6DC2CC8B31000B212C7 /* doitnow Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C737E6ED2CC8B31200B212C7 /* doitnow Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C737E7092CC8B31300B212C7 /* Build configuration list for PBXNativeTarget "doitnow Watch AppTests" */;
+			buildPhases = (
+				C737E6EA2CC8B31200B212C7 /* Sources */,
+				C737E6EB2CC8B31200B212C7 /* Frameworks */,
+				C737E6EC2CC8B31200B212C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C737E6F02CC8B31200B212C7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C737E6F12CC8B31200B212C7 /* doitnow Watch AppTests */,
+			);
+			name = "doitnow Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "doitnow Watch AppTests";
+			productReference = C737E6EE2CC8B31200B212C7 /* doitnow Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C737E6F72CC8B31300B212C7 /* doitnow Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C737E70C2CC8B31300B212C7 /* Build configuration list for PBXNativeTarget "doitnow Watch AppUITests" */;
+			buildPhases = (
+				C737E6F42CC8B31300B212C7 /* Sources */,
+				C737E6F52CC8B31300B212C7 /* Frameworks */,
+				C737E6F62CC8B31300B212C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C737E6FA2CC8B31300B212C7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C737E6FB2CC8B31300B212C7 /* doitnow Watch AppUITests */,
+			);
+			name = "doitnow Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "doitnow Watch AppUITests";
+			productReference = C737E6F82CC8B31300B212C7 /* doitnow Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C737E6D02CC8B31000B212C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					C737E6D52CC8B31000B212C7 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					C737E6DB2CC8B31000B212C7 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					C737E6ED2CC8B31200B212C7 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C737E6DB2CC8B31000B212C7;
+					};
+					C737E6F72CC8B31300B212C7 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C737E6DB2CC8B31000B212C7;
+					};
+				};
+			};
+			buildConfigurationList = C737E6D32CC8B31000B212C7 /* Build configuration list for PBXProject "doitnow" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C737E6CF2CC8B31000B212C7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C737E6D72CC8B31000B212C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C737E6D52CC8B31000B212C7 /* doitnow */,
+				C737E6DB2CC8B31000B212C7 /* doitnow Watch App */,
+				C737E6ED2CC8B31200B212C7 /* doitnow Watch AppTests */,
+				C737E6F72CC8B31300B212C7 /* doitnow Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C737E6D42CC8B31000B212C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C737E6DA2CC8B31000B212C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C737E6EC2CC8B31200B212C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C737E6F62CC8B31300B212C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C737E6D82CC8B31000B212C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C737E6EA2CC8B31200B212C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C737E6F42CC8B31300B212C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C737E6DF2CC8B31000B212C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C737E6DB2CC8B31000B212C7 /* doitnow Watch App */;
+			targetProxy = C737E6DE2CC8B31000B212C7 /* PBXContainerItemProxy */;
+		};
+		C737E6F02CC8B31200B212C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C737E6DB2CC8B31000B212C7 /* doitnow Watch App */;
+			targetProxy = C737E6EF2CC8B31200B212C7 /* PBXContainerItemProxy */;
+		};
+		C737E6FA2CC8B31300B212C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C737E6DB2CC8B31000B212C7 /* doitnow Watch App */;
+			targetProxy = C737E6F92CC8B31300B212C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C737E7002CC8B31300B212C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C737E7012CC8B31300B212C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C737E7032CC8B31300B212C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"doitnow Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = doitnow;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.himindukularathne.doitnow.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		C737E7042CC8B31300B212C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"doitnow Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = doitnow;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.himindukularathne.doitnow.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		C737E7072CC8B31300B212C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = doitnow;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.himindukularathne.doitnow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C737E7082CC8B31300B212C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = doitnow;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.himindukularathne.doitnow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C737E70A2CC8B31300B212C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.himindukularathne.doitnow-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doitnow Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/doitnow Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		C737E70B2CC8B31300B212C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.himindukularathne.doitnow-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doitnow Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/doitnow Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		C737E70D2CC8B31300B212C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.himindukularathne.doitnow-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "doitnow Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		C737E70E2CC8B31300B212C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.himindukularathne.doitnow-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "doitnow Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C737E6D32CC8B31000B212C7 /* Build configuration list for PBXProject "doitnow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C737E7002CC8B31300B212C7 /* Debug */,
+				C737E7012CC8B31300B212C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C737E7022CC8B31300B212C7 /* Build configuration list for PBXNativeTarget "doitnow Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C737E7032CC8B31300B212C7 /* Debug */,
+				C737E7042CC8B31300B212C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C737E7062CC8B31300B212C7 /* Build configuration list for PBXNativeTarget "doitnow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C737E7072CC8B31300B212C7 /* Debug */,
+				C737E7082CC8B31300B212C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C737E7092CC8B31300B212C7 /* Build configuration list for PBXNativeTarget "doitnow Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C737E70A2CC8B31300B212C7 /* Debug */,
+				C737E70B2CC8B31300B212C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C737E70C2CC8B31300B212C7 /* Build configuration list for PBXNativeTarget "doitnow Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C737E70D2CC8B31300B212C7 /* Debug */,
+				C737E70E2CC8B31300B212C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C737E6D02CC8B31000B212C7 /* Project object */;
+}
